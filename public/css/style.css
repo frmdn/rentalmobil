@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,400i');
+
+* {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.bgbos {
+    background-image: url('../img/car.jpg');
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    box-shadow: none;
+}
+
+.navbar {
+    background-color: #211221;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+.navbar .nav-item .nav-link {
+    font-size: 1.2rem;
+}
+
+.navbar:not(.top-nav-collapse) {
+    background: 0 0;
+    background-image: initial;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+
+.grid-head {
+    font-size: 1.4rem;
+
+}
+
+.mainsection {
+    padding: 50px 0;
+}
+.list-item {
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(130,130,130,0.5);
+}
